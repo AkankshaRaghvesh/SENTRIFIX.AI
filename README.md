@@ -20,17 +20,17 @@ All commands should be run from the project root directory.
 2. Install Language Model:
 The following model is required for Microsoft Presidio to analyze and identify sensitive text.
 
-python -m spacy download en_core_web_lg
+   python -m spacy download en_core_web_lg
 
 3. Configure Ollama:
 Ensure Ollama is installed and running locally. Pull the specific model used for this project:
 
-ollama pull llama3.2
+   ollama pull llama3.2
 
 4. Execution
 Once the setup is complete, launch the application:
 
-python app.py
+   python app.py
 The Aurora Dashboard will be accessible at http://localhost:5000.
 
 Security Implementation
